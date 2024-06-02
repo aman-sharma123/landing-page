@@ -1,0 +1,263 @@
+body {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+}
+
+.header {
+    height: 400px;
+    background-color: #1f2937;
+    width: 100%;
+    padding: 10px;
+}
+
+.upper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 100px;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    margin: 0px;
+}
+
+.link {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-right: 100px;
+    align-items: center;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    margin-bottom: 100px;
+
+}
+
+.hero-main {
+    display: flex;
+    margin-bottom: 0;
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 0;
+}
+
+.hero-main h1 {
+    margin-bottom: 0;
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.hero-secondary {
+    display: flex;
+    margin-bottom: 0;
+    width: 370px;
+    margin-left: 100px;
+}
+
+.hero-secondary p {
+    margin: 0;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.but {
+    display: flex;
+    margin-bottom: 0;
+    width: 370px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+
+.button1 {
+    background-color: #3882f6;
+    width: 100px;
+    border: none;
+    border-radius: 4px;
+    padding: 6px;
+    margin: 0;
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.image-bg {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.image-bg img {
+    max-width: 100%;
+    height: auto;
+    width: 600px;
+    height: 250px;
+}
+
+.middle {
+    margin: 0;
+
+}
+
+.heading {
+    font-size: 36px;
+    color: #1f2937;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.card-container {
+    display: flex;
+
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px;
+    margin: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+    border-color: lightblue;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-text {
+    text-align: center;
+    font-size: 18px;
+}
+
+.Quote {
+    display: flex;
+    margin: 0;
+    background-color: #e5e7eb;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.text {
+    width: 800px;
+    text-align: center;
+}
+
+.i {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+
+}
+
+.abv {
+    font-size: 20px;
+    text-align: right;
+    margin-top: 0;
+}
+
+.blue-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.action-card {
+    background-color: #3882f6;
+    display: flex;
+    margin: 100px;
+    padding: 16px;
+    width: 800px;
+    height: 100px;
+    overflow: hidden;
+    border: 1px solid;
+    justify-content: space-between;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: white;
+}
+
+.action-card h1 {
+    margin-bottom: 0px;
+
+    font-size: 20px;
+    color: #f9faf8;
+}
+
+.action-card p {
+    margin-top: 0;
+
+    color: #f9faf8;
+    margin-bottom: 0;
+}
+
+.action-head {
+    margin-left: 70px;
+    padding: 16px;
+
+}
+
+.sign {
+    width: 100px;
+    height: 50px;
+    background-color: #3882f6;
+    border-width: 2px;
+    border-radius: 5px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    border-color: #f9faf8;
+    padding: 10px 20px;
+}
+
+.foot {
+    width: 100%;
+    height: fit-content;
+    background-color: #1f2937;
+    padding: 50px;
+    text-align: center;
+    font-size: 18px;
+    color: #f9faf8;
+}
